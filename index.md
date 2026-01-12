@@ -78,3 +78,5 @@ was funktioniert – was nicht – und warum.
 ## Aktueller Stand
 Projekt im Aufbau.  
 Inhalte werden schrittweise ergänzt, überprüft und weiter strukturiert.
+
+[Impressum](impressum.md) · [Datenschutz](datenschutz.md)
