@@ -79,4 +79,5 @@ was funktioniert – was nicht – und warum.
 Projekt im Aufbau.  
 Inhalte werden schrittweise ergänzt, überprüft und weiter strukturiert.
 
-[Impressum](impressum.md) · [Datenschutz](datenschutz.md)
+[Impressum](/impressum) · [Datenschutz](/datenschutz)
+
