@@ -1,3 +1,4 @@
+<script defer data-domain="gesundheit-messbar-veraendern.de" src="https://plausible.io/js/script.js"></script>
 # Gesundheit messbar verändern
 *Ernährung, Blutwerte & Stoffwechsel datenbasiert eingeordnet – damit Veränderung nachvollziehbar wird.*
 
