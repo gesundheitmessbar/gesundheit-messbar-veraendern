@@ -79,6 +79,8 @@ Die Inhalte basieren auf einem realen, fortlaufend dokumentierten Prozess.
 Ziel ist nicht Selbstdarstellung, sondern *Verständnis*:
 
 Was funktioniert – was nicht – und warum.
+Eine grundlegende Einordnung dazu findet sich hier:  
+[Warum messen besser ist als raten](/warum-messen)
 
 ---
 
