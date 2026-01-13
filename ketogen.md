@@ -38,3 +38,9 @@ Welche Werte sinnvoll sind:
 
 ## Für wen ketogen sinnvoll ist
 Kurz: sinnvolle Einsatzfälle + Grenzen
+
+## Abgrenzung zu Low Carb
+
+Ketogene Ernährung ist kein „strenges Low Carb“, sondern ein eigener metabolischer Zustand.
+
+→ [Zur Low-Carb-Ernährung](./low-carb)
