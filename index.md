@@ -1,4 +1,7 @@
-<script defer data-domain="gesundheit-messbar-veraendern.de" src="https://plausible.io/js/script.js"></script>
+---
+layout: default
+title: Gesundheit messbar verändern
+---
 
 # Gesundheit messbar verändern
 
