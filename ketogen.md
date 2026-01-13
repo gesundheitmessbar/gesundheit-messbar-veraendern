@@ -5,12 +5,22 @@ title: Ketogene Ernährung
 
 # Ketogene Ernährung
 
-Diese Seite beschreibt die ketogene Ernährung als *metabolischen Zustand*.
-## Kurzdefinition
-(1–2 Sätze, was „ketogen“ bedeutet – Zustand, nicht Ideologie)
+Die ketogene Ernährung ist kein Diättrend, sondern ein *definierter metabolischer Zustand*.
+
+Im Fokus steht nicht „weniger essen“, sondern eine gezielte *Stoffwechselumschaltung*:
+weg von Glukose – hin zu Fettsäuren und Ketonkörpern als primäre Energiequelle.
 
 ## Ziel der ketogenen Ernährung
-(Warum Ketose genutzt wird: Fettverbrennung, Stabilität, therapeutisch/Performance)
+Die ketogene Ernährung wird genutzt, um den Stoffwechsel gezielt in einen stabilen,
+fettbasierten Betriebsmodus zu bringen.
+
+Ziele können sein:
+- effektive und messbare Fettverbrennung
+- Reduktion von Blutzucker- und Insulinschwankungen
+- konstante Energie ohne Leistungseinbrüche
+- therapeutische oder leistungsbezogene Anwendungen
+
+Entscheidend ist: Ketose ist *kein Selbstzweck*, sondern ein steuerbarer Zustand.
 
 ## Stoffwechselmechanik
 - Ketose
