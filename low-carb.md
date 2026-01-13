@@ -46,3 +46,9 @@ Warum Low Carb genutzt wird: Alltagstauglichkeit, Kontrolle, Flexibilität
 - Gewicht
 - Körperzusammensetzung
 - subjektive Leistungsfähigkeit
+  
+- ## Abgrenzung zur ketogenen Ernährung
+
+Low Carb zielt nicht auf dauerhafte Ketose ab, sondern auf flexible Kohlenhydratsteuerung.
+
+→ [Zur ketogenen Ernährung](./ketogen)
