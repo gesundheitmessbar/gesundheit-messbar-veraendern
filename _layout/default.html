@@ -1,0 +1,51 @@
+<!doctype html>
+<html lang="de">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>{{ page.title | default: "Gesundheit messbar verändern" }}</title>
+
+    <!-- Plausible Tracking -->
+    <script
+      defer
+      data-domain="gesundheit-messbar-veraendern.de"
+      src="https://plausible.io/js/script.js">
+    </script>
+  </head>
+
+  <body>
+    <main>
+      {{ content }}
+    </main>
+
+    <!-- Read_50: echter Leser (Scroll >= 50%) -->
+    <script>
+      (function () {
+        let fired = false;
+
+        function onScroll() {
+          if (fired) return;
+
+          const scrollDepth =
+            (window.scrollY + window.innerHeight) /
+            document.documentElement.scrollHeight;
+
+          if (scrollDepth >= 0.5) {
+            if (typeof plausible === "function") plausible("Read_50");
+            fired = true;
+            window.removeEventListener("scroll", onScroll, { passive: true });
+          }
+        }
+
+        window.addEventListener("scroll", onScroll, { passive: true });
+      })();
+    </script>
+
+    <!-- Optional: Read_30s (30 Sekunden auf der Seite) -->
+    <script>
+      setTimeout(function () {
+        if (typeof plausible === "function") plausible("Read_30s");
+      }, 30000);
+    </script>
+  </body>
+</html>
