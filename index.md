@@ -3,7 +3,7 @@ layout: default
 title: Gesundheit messbar verändern
 ---
 
-# Gesundheit messbar verändern
+
 
 Nicht nach Gefühl – sondern anhand von *Messwerten, Verlauf und Kontext*.
 
@@ -11,7 +11,7 @@ Gesundheit wird viel diskutiert, aber selten systematisch gemessen.
 Dieses Projekt zeigt, wie sich Gesundheit *nachvollziehbar verändern lässt*,  
 wenn Entscheidungen nicht auf Meinungen, sondern auf *Daten und deren Entwicklung* basieren.
 
----
+
 
 ## Worum es hier geht
 
