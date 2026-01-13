@@ -1,147 +1,56 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="de">
-<head>
-  <meta charset="utf-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
 
-  <title>{{ page.title | default: "Gesundheit messbar verändern" }}</title>
+    <title>{{ page.title | default: "Gesundheit messbar verändern" }}</title>
 
-  <!-- Plausible Analytics -->
-  <script
-    defer
-    data-domain="gesundheit-messbar-veraendern.de"
-    src="https://plausible.io/js/script.js">
-  </script>
+    <!-- Dein CSS -->
+    <link rel="stylesheet" href="/assets/style.css" />
 
-  <style>
-    :root {
-      --max-width: 760px;
-      --text-color: #111;
-      --muted: #555;
-      --link: #1a4cff;
-      --bg: #ffffff;
-    }
+    <!-- Plausible Analytics -->
+    <script
+      defer
+      data-domain="gesundheit-messbar-veraendern.de"
+      src="https://plausible.io/js/script.js">
+    </script>
+  </head>
 
-    * {
-      box-sizing: border-box;
-    }
+  <body>
+    <header class="site-header">
+      <div class="site-wrap">
+        <div class="brand">
+          <a class="brand-link" href="/">gesundheit-messbar-veraendern</a>
+        </div>
 
-    body {
-      margin: 0;
-      font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI",
-                   Roboto, Helvetica, Arial, sans-serif;
-      background: var(--bg);
-      color: var(--text-color);
-      line-height: 1.6;
-    }
+        <nav class="site-nav" aria-label="Hauptnavigation">
+          <a href="/">Start</a>
+          <a href="/ketogen">Ketogen</a>
+          <a href="/low-carb">Low Carb</a>
+          <a href="/ernaehrungsfallen">Ernährungsfallen</a>
+          <a href="/warum-messen">Warum messen?</a>
+          <a href="/impressum">Impressum</a>
+          <a href="/datenschutz">Datenschutz</a>
+        </nav>
+      </div>
+    </header>
 
-    header {
-      border-bottom: 1px solid #e5e5e5;
-      margin-bottom: 3rem;
-    }
+    <main class="site-main">
+      <div class="site-wrap">
+        {{ content }}
+      </div>
+    </main>
 
-    nav {
-      max-width: var(--max-width);
-      margin: 0 auto;
-      padding: 1.5rem 1rem;
-      display: flex;
-      flex-wrap: wrap;
-      gap: 1rem;
-      font-size: 0.95rem;
-    }
-
-    nav a {
-      text-decoration: none;
-      color: var(--link);
-      white-space: nowrap;
-    }
-
-    nav a:hover {
-      text-decoration: underline;
-    }
-
-    main {
-      max-width: var(--max-width);
-      margin: 0 auto;
-      padding: 0 1rem 4rem 1rem;
-    }
-
-    h1, h2, h3 {
-      line-height: 1.25;
-      margin-top: 2.5rem;
-    }
-
-    h1 {
-      font-size: 2rem;
-    }
-
-    h2 {
-      font-size: 1.4rem;
-    }
-
-    p {
-      margin: 1rem 0;
-    }
-
-    ul {
-      padding-left: 1.2rem;
-    }
-
-    footer {
-      border-top: 1px solid #e5e5e5;
-      margin-top: 4rem;
-      padding: 2rem 1rem;
-      font-size: 0.85rem;
-      color: var(--muted);
-    }
-
-    footer .inner {
-      max-width: var(--max-width);
-      margin: 0 auto;
-      display: flex;
-      justify-content: space-between;
-      flex-wrap: wrap;
-      gap: 1rem;
-    }
-
-    footer a {
-      color: var(--muted);
-      text-decoration: none;
-    }
-
-    footer a:hover {
-      text-decoration: underline;
-    }
-  </style>
-</head>
-
-<body>
-
-<header>
-  <nav>
-    <a href="/">Start</a>
-    <a href="/ketogen">Ketogen</a>
-    <a href="/low-carb">Low Carb</a>
-    <a href="/ernaehrungsfallen">Ernährungsfallen</a>
-    <a href="/warum-messen">Warum messen?</a>
-    <a href="/impressum">Impressum</a>
-    <a href="/datenschutz">Datenschutz</a>
-  </nav>
-</header>
-
-<main>
-  {{ content }}
-</main>
-
-<footer>
-  <div class="inner">
-    <div>© 2026 gesundheit-messbar-veraendern</div>
-    <div>
-      <a href="/impressum">Impressum</a> ·
-      <a href="/datenschutz">Datenschutz</a>
-    </div>
-  </div>
-</footer>
-
-</body>
+    <footer class="site-footer">
+      <div class="site-wrap">
+        <div class="footer-left">© 2026 gesundheit-messbar-veraendern</div>
+        <div class="footer-right">
+          <a href="/impressum">Impressum</a>
+          <span class="sep">·</span>
+          <a href="/datenschutz">Datenschutz</a>
+        </div>
+      </div>
+    </footer>
+  </body>
 </html>
